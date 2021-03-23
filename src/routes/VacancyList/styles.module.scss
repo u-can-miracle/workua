@@ -1,0 +1,20 @@
+.vacancyListTitle {
+  margin: 30px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vacancyListHeading {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .vacancyListTitle {
+    display: block;
+  }
+
+  .vacancyListHeading {
+    margin-bottom: 10px;
+  }
+}

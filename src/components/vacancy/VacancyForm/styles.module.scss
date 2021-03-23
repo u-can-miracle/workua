@@ -1,0 +1,73 @@
+@import 'assets/styles/variables.scss';
+
+.headerTitle {
+  margin-top: 30px;
+}
+
+.form {
+  margin-top: 20px;
+  background: $third-bg;
+  :global {
+    .ant-radio-group {
+      font-size: 17px;
+    }
+  }
+}
+
+.errorBlock {
+  margin-top: 30px;
+  padding: 20px 30px;
+  border: 1px solid $color-border-error;
+  border-radius: 5px;
+  background: $color-work-ua-soft-red;
+}
+
+.errorHeading {
+  display: block;
+  margin-top: 5px;
+  color: $color-work-ua-red;
+}
+
+.errorDescription {
+  margin-top: 20px;
+}
+
+.formSection {
+  padding: 30px;
+  border-bottom: 1px solid $color-border;
+  &:last-child {
+    margin-bottom: none;
+  }
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.priceInput {
+  max-width: 100px;
+}
+
+.priceDelimiter {
+  display: inline-block;
+  width: 10px;
+  height: 1px;
+  margin: 0 8px 5px;
+  background: $color-work-ua-black;
+}
+
+.priceCommentLabel {
+  margin-top: 20px;
+}
+
+.priceCommentInput {
+  max-width: 250px;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.cancel {
+  font-weight: 400;
+}

@@ -1,0 +1,16 @@
+@import 'assets/styles/variables.scss';
+
+.ant-typography.ant-typography-danger {
+  color: $color-work-ua-red
+}
+
+.ant-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 5px;
+  padding: 7px 10px;
+  border: 1px solid $color-border-secindary;
+  line-height: 26px;
+  font-size: 19px;
+  background: $work-ua-bg;
+}

@@ -1,0 +1,19 @@
+@import 'assets/styles/variables.scss';
+
+.h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  color: $color-work-ua-black;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: $color-work-ua-black;
+}
+
+.danger {
+  color: $color-work-ua-red;
+}
